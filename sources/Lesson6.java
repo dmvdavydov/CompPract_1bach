@@ -19,15 +19,17 @@ public class Lesson6 {
         // System.out.println(Arrays.stream(goodTimes).average());
         // 2. Лишнее создание переменной в цикле
         long[] times = new long[N_TIMES];
+        long time1;
         for (int j = 0; j < times.length; j++) {
-            long time1 = System.nanoTime();
+            time1 = System.nanoTime();
             func_int();
             times[j] = System.nanoTime() - time1;
         }
 
         long[] times2 = new long[N_TIMES];
+        long time2;
         for (int j = 0; j < times.length; j++) {
-            long time2 = System.nanoTime();
+            time2 = System.nanoTime();
             func_int2();
             times2[j] = System.nanoTime() - time2;
         }

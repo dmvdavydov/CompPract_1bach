@@ -1,6 +1,6 @@
 public class Lesson2 {
     public static void main(String[] args) {
-        int a = -7;//Integer.MIN_VALUE;
+        int a = -7;// Integer.MIN_VALUE;
         int aa = a >>> 1;
         byte b = Byte.SIZE;
         short s = Short.MAX_VALUE;
@@ -8,7 +8,7 @@ public class Lesson2 {
         long lo = Long.MAX_VALUE;
         float fl = Float.MAX_VALUE;
         double doub = Double.MAX_VALUE;
-        char ch = Character.MAX_VALUE;
+        char ch = java.lang.Character.MAX_VALUE;
 
         System.out.println("Var a equal " + a);
         System.out.println("Var a in binary equal " + Integer.toBinaryString(a));
@@ -33,7 +33,7 @@ public class Lesson2 {
         System.out.println("Размер (в байтах) Float: " + Float.BYTES);
         System.out.println("Размер (в байтах) Double: " + Double.BYTES);
 
-        System.out.println("НЕ (3 РАВНО 7) ? " + !(3==7));
+        System.out.println("НЕ (3 РАВНО 7) ? " + !(3 == 7));
     }
 
 }

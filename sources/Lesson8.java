@@ -38,8 +38,6 @@ public class Lesson8 {
         }
         L[n1] = Integer.MAX_VALUE;
         R[n2] = Integer.MAX_VALUE;
-        System.out.println(Arrays.toString(L));
-        System.out.println(Arrays.toString(R));
         int i=0;
         int j=0;
         for (int k = p; k <= r; k++) {

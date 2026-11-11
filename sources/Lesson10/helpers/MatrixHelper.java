@@ -1,4 +1,4 @@
-package Lesson9.helpers;
+package Lesson10.helpers;
 
 public class MatrixHelper {
 
